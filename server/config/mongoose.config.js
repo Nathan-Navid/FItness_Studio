@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://127.0.0.1:27017/reg_login_db', {
+mongoose.connect('mongodb://127.0.0.1:27017/fitness_studio_db', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })

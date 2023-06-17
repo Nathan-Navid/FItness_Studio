@@ -31,7 +31,13 @@ const UserSchema = new mongoose.Schema({
     // bmi:{
     //     type:Number,
     //     required: [true, 'BMI is required'],
-    // }
+    // },
+    role: {
+        type: String,
+        enum: ['Admin', 'Student', 'PT'],
+        require: true
+    },
+    class: [{ type: Schema.Types.ObjectId, ref: 'Class' }]
 }, { timestamps: true });
 
 // Middleware to create virtual field confirm password

@@ -2,7 +2,7 @@ import React from 'react'
 import { DataGrid } from '@mui/x-data-grid';
 import { Box } from '@mui/material';
 
-const Classes = () => {
+const StudentClasses = () => {
   const columns = [
     { field: 'id', headerName: 'ID', width: 70 },
     { field: 'className', headerName: 'Class Name', width: 130 },
@@ -41,4 +41,4 @@ const Classes = () => {
   )
 }
 
-export default Classes
+export default StudentClasses

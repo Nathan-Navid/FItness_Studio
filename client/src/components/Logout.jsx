@@ -5,6 +5,8 @@ import { useNavigate } from 'react-router-dom';
 const Logout = () => {
     const navigate = useNavigate();
     // Logout's Handler
+
+
     const logoutHandler = (e) => {
         e.preventDefault();
         axios.post("http://localhost:8000/api/logout", {}, { withCredentials: true })

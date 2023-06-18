@@ -5,10 +5,6 @@ import Classes from './Classes';
 import Footer from './Footer';
 import Container from '@mui/material/Container';
 
-// import TabContext from '@mui/lab/TabContext';
-// import TabList from '@mui/lab/TabList';
-// import TabPanel from '@mui/lab/TabPanel';
-
 
 const Dashboard = () => {
 

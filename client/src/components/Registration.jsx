@@ -41,7 +41,10 @@ const Registration = () => {
                 <h1>Registration</h1>
                 <div className="form-group mt-3">
                     <label htmlFor="firstName">First Name</label>
-                    <input type="text" className="form-control" name="firstName" id="firstName" placeholder="First Name" onChange={changeHandler} />
+                    <input type="text" className="form-control" name="firstName" id="firstName"
+                        placeholder="First Name" onChange={changeHandler} />
+                    {/* {firstName & firstName.length < 2 ? "First Name should be at least 2 character long" : ""} */}
+
                 </div>
                 <div className="form-group mt-3">
                     <label htmlFor="lastName">Last Name</label>

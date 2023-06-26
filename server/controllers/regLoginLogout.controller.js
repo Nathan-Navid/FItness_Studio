@@ -25,8 +25,7 @@ module.exports = {
             console.log(err);
             return res.status(400).json(err);
         }
-    }
-    ,
+    },
     // login an existing user
     login: async (req, res) => {
         try {

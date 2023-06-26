@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import Button from '@mui/material/Button';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+// import Registration from './Registration';
 
 const Login = () => {
     const navigate = useNavigate();
@@ -31,7 +33,7 @@ const Login = () => {
     return (
         <>
             {/* //login form */}
-            <form className="col-3 offset-3" onSubmit={loginHandler}>
+            <form className="mt-4 col-3 align-self-center " onSubmit={loginHandler}>
                 <h1>Login</h1>
                 <div className="form-group mt-3">
                     <label htmlFor="email" >Email Address</label>

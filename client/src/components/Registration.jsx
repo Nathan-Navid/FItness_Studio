@@ -37,7 +37,7 @@ const Registration = () => {
     return (
         <>
             {/* //Registration form */}
-            <form className="col-3 offset-2" onSubmit={submitHandler}>
+            <form className="mt-4 col-3 align-self-center" onSubmit={submitHandler}>
                 <h1>Registration</h1>
                 <div className="form-group mt-3">
                     <label htmlFor="firstName">First Name</label>

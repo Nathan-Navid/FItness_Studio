@@ -19,8 +19,8 @@ const Navigate = () => {
     return (
         <div className='mb-4'>
             <nav className="navbar navbar-expand-lg bg-body-secondary">
-                <div className="container-fluid col-lg-8">
-                    <Link to={"/"} className='navbar-brand'><h1>Home</h1></Link>
+                <div className="d-flex align-items-baseline ms-auto col-lg-10 ">
+                    <Link to={"/dashboard"} className='btn'><h1>Home</h1></Link>
                     <Link to={"/"} className='btn'>New</Link>
                     <Link to={"/"} className='btn'>Search</Link>
                     <Link to={"/"} className='btn'>Account</Link>
